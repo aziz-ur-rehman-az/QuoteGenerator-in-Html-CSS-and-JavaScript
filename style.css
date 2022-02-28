@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+  background-color: lightgray;
+}
+.quoteContent {
+  background-color: tomato;
+  color: lightcyan;
+  padding: 50px;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 140px;
+}
+.author {
+  border: 1px solid lightcyan;
+  background-color: tomato;
+  padding: 10px;
+}
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.image {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+.name {
+  position: relative;
+  top: -2rem;
+  left: 18em;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+input[type="button"] {
+  font-size: 20px;
+  padding: 5px;
+  background-color: white;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  color: tomato;
+}
+input[type="button"]:hover {
+  background-color: tomato;
+  color: white;
+}
+#english {
+  position: relative;
+  left: 240px;
+  width: 100px;
+}
+#urdu {
+  position: relative;
+  left: 230px;
+  width: 100px;
+}
+#generate {
+  position: relative;
+  left: 240px;
+  width: 200px;
+}
